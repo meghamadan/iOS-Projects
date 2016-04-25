@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170D4ED11C88BC760049F431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 170D4ED01C88BC760049F431 /* main.m */; };
+		170D4ED41C88BC760049F431 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 170D4ED31C88BC760049F431 /* AppDelegate.m */; };
+		170D4ED71C88BC760049F431 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170D4ED61C88BC760049F431 /* ViewController.m */; };
+		170D4EDA1C88BC760049F431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170D4ED81C88BC760049F431 /* Main.storyboard */; };
+		170D4EDC1C88BC760049F431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170D4EDB1C88BC760049F431 /* Assets.xcassets */; };
+		170D4EDF1C88BC760049F431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170D4EDD1C88BC760049F431 /* LaunchScreen.storyboard */; };
+		170D4EEA1C88BC760049F431 /* password_saver_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 170D4EE91C88BC760049F431 /* password_saver_appTests.m */; };
+		170D4EF51C88BC760049F431 /* password_saver_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 170D4EF41C88BC760049F431 /* password_saver_appUITests.m */; };
+		170D4F041C88D5DF0049F431 /* SiteValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 170D4F031C88D5DF0049F431 /* SiteValue.m */; };
+		170D4F0C1C896F400049F431 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170D4F0B1C896F400049F431 /* AddViewController.m */; };
+		170D4F0E1C8A7C330049F431 /* rsz_1key.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 170D4F0D1C8A7C320049F431 /* rsz_1key.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		170D4EE61C88BC760049F431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170D4EC41C88BC760049F431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170D4ECB1C88BC760049F431;
+			remoteInfo = "password-saver-app";
+		};
+		170D4EF11C88BC760049F431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170D4EC41C88BC760049F431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170D4ECB1C88BC760049F431;
+			remoteInfo = "password-saver-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		170D4ECC1C88BC760049F431 /* password-saver-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "password-saver-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170D4ED01C88BC760049F431 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		170D4ED21C88BC760049F431 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		170D4ED31C88BC760049F431 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		170D4ED51C88BC760049F431 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		170D4ED61C88BC760049F431 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		170D4ED91C88BC760049F431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		170D4EDB1C88BC760049F431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		170D4EDE1C88BC760049F431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		170D4EE01C88BC760049F431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170D4EE51C88BC760049F431 /* password-saver-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "password-saver-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170D4EE91C88BC760049F431 /* password_saver_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = password_saver_appTests.m; sourceTree = "<group>"; };
+		170D4EEB1C88BC760049F431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170D4EF01C88BC760049F431 /* password-saver-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "password-saver-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170D4EF41C88BC760049F431 /* password_saver_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = password_saver_appUITests.m; sourceTree = "<group>"; };
+		170D4EF61C88BC760049F431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170D4F021C88D5DF0049F431 /* SiteValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiteValue.h; path = "../../Password saver/Password saver/mm6158_password_saver/SiteValue.h"; sourceTree = "<group>"; };
+		170D4F031C88D5DF0049F431 /* SiteValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiteValue.m; path = "../../Password saver/Password saver/mm6158_password_saver/SiteValue.m"; sourceTree = "<group>"; };
+		170D4F0A1C896F400049F431 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		170D4F0B1C896F400049F431 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		170D4F0D1C8A7C320049F431 /* rsz_1key.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rsz_1key.jpg; path = ../../rsz_1key.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		170D4EC91C88BC760049F431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170D4EE21C88BC760049F431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170D4EED1C88BC760049F431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170D4EC31C88BC760049F431 = {
+			isa = PBXGroup;
+			children = (
+				170D4ECE1C88BC760049F431 /* password-saver-app */,
+				170D4EE81C88BC760049F431 /* password-saver-appTests */,
+				170D4EF31C88BC760049F431 /* password-saver-appUITests */,
+				170D4ECD1C88BC760049F431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		170D4ECD1C88BC760049F431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				170D4ECC1C88BC760049F431 /* password-saver-app.app */,
+				170D4EE51C88BC760049F431 /* password-saver-appTests.xctest */,
+				170D4EF01C88BC760049F431 /* password-saver-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		170D4ECE1C88BC760049F431 /* password-saver-app */ = {
+			isa = PBXGroup;
+			children = (
+				170D4F0A1C896F400049F431 /* AddViewController.h */,
+				170D4F0B1C896F400049F431 /* AddViewController.m */,
+				170D4ED21C88BC760049F431 /* AppDelegate.h */,
+				170D4ED31C88BC760049F431 /* AppDelegate.m */,
+				170D4ED51C88BC760049F431 /* ViewController.h */,
+				170D4ED61C88BC760049F431 /* ViewController.m */,
+				170D4ED81C88BC760049F431 /* Main.storyboard */,
+				170D4F021C88D5DF0049F431 /* SiteValue.h */,
+				170D4F031C88D5DF0049F431 /* SiteValue.m */,
+				170D4EDB1C88BC760049F431 /* Assets.xcassets */,
+				170D4EDD1C88BC760049F431 /* LaunchScreen.storyboard */,
+				170D4EE01C88BC760049F431 /* Info.plist */,
+				170D4ECF1C88BC760049F431 /* Supporting Files */,
+			);
+			path = "password-saver-app";
+			sourceTree = "<group>";
+		};
+		170D4ECF1C88BC760049F431 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				170D4F0D1C8A7C320049F431 /* rsz_1key.jpg */,
+				170D4ED01C88BC760049F431 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		170D4EE81C88BC760049F431 /* password-saver-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				170D4EE91C88BC760049F431 /* password_saver_appTests.m */,
+				170D4EEB1C88BC760049F431 /* Info.plist */,
+			);
+			path = "password-saver-appTests";
+			sourceTree = "<group>";
+		};
+		170D4EF31C88BC760049F431 /* password-saver-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				170D4EF41C88BC760049F431 /* password_saver_appUITests.m */,
+				170D4EF61C88BC760049F431 /* Info.plist */,
+			);
+			path = "password-saver-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		170D4ECB1C88BC760049F431 /* password-saver-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170D4EF91C88BC760049F431 /* Build configuration list for PBXNativeTarget "password-saver-app" */;
+			buildPhases = (
+				170D4EC81C88BC760049F431 /* Sources */,
+				170D4EC91C88BC760049F431 /* Frameworks */,
+				170D4ECA1C88BC760049F431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "password-saver-app";
+			productName = "password-saver-app";
+			productReference = 170D4ECC1C88BC760049F431 /* password-saver-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		170D4EE41C88BC760049F431 /* password-saver-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170D4EFC1C88BC760049F431 /* Build configuration list for PBXNativeTarget "password-saver-appTests" */;
+			buildPhases = (
+				170D4EE11C88BC760049F431 /* Sources */,
+				170D4EE21C88BC760049F431 /* Frameworks */,
+				170D4EE31C88BC760049F431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				170D4EE71C88BC760049F431 /* PBXTargetDependency */,
+			);
+			name = "password-saver-appTests";
+			productName = "password-saver-appTests";
+			productReference = 170D4EE51C88BC760049F431 /* password-saver-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		170D4EEF1C88BC760049F431 /* password-saver-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170D4EFF1C88BC760049F431 /* Build configuration list for PBXNativeTarget "password-saver-appUITests" */;
+			buildPhases = (
+				170D4EEC1C88BC760049F431 /* Sources */,
+				170D4EED1C88BC760049F431 /* Frameworks */,
+				170D4EEE1C88BC760049F431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				170D4EF21C88BC760049F431 /* PBXTargetDependency */,
+			);
+			name = "password-saver-appUITests";
+			productName = "password-saver-appUITests";
+			productReference = 170D4EF01C88BC760049F431 /* password-saver-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		170D4EC41C88BC760049F431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = nyu.edu;
+				TargetAttributes = {
+					170D4ECB1C88BC760049F431 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					170D4EE41C88BC760049F431 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 170D4ECB1C88BC760049F431;
+					};
+					170D4EEF1C88BC760049F431 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 170D4ECB1C88BC760049F431;
+					};
+				};
+			};
+			buildConfigurationList = 170D4EC71C88BC760049F431 /* Build configuration list for PBXProject "password-saver-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 170D4EC31C88BC760049F431;
+			productRefGroup = 170D4ECD1C88BC760049F431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				170D4ECB1C88BC760049F431 /* password-saver-app */,
+				170D4EE41C88BC760049F431 /* password-saver-appTests */,
+				170D4EEF1C88BC760049F431 /* password-saver-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		170D4ECA1C88BC760049F431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170D4EDF1C88BC760049F431 /* LaunchScreen.storyboard in Resources */,
+				170D4EDC1C88BC760049F431 /* Assets.xcassets in Resources */,
+				170D4EDA1C88BC760049F431 /* Main.storyboard in Resources */,
+				170D4F0E1C8A7C330049F431 /* rsz_1key.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170D4EE31C88BC760049F431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170D4EEE1C88BC760049F431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		170D4EC81C88BC760049F431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170D4F0C1C896F400049F431 /* AddViewController.m in Sources */,
+				170D4F041C88D5DF0049F431 /* SiteValue.m in Sources */,
+				170D4ED71C88BC760049F431 /* ViewController.m in Sources */,
+				170D4ED41C88BC760049F431 /* AppDelegate.m in Sources */,
+				170D4ED11C88BC760049F431 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170D4EE11C88BC760049F431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170D4EEA1C88BC760049F431 /* password_saver_appTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170D4EEC1C88BC760049F431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170D4EF51C88BC760049F431 /* password_saver_appUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		170D4EE71C88BC760049F431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170D4ECB1C88BC760049F431 /* password-saver-app */;
+			targetProxy = 170D4EE61C88BC760049F431 /* PBXContainerItemProxy */;
+		};
+		170D4EF21C88BC760049F431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170D4ECB1C88BC760049F431 /* password-saver-app */;
+			targetProxy = 170D4EF11C88BC760049F431 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		170D4ED81C88BC760049F431 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170D4ED91C88BC760049F431 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		170D4EDD1C88BC760049F431 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170D4EDE1C88BC760049F431 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		170D4EF71C88BC760049F431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		170D4EF81C88BC760049F431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		170D4EFA1C88BC760049F431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "password-saver-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyu.edu.password-saver-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		170D4EFB1C88BC760049F431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "password-saver-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyu.edu.password-saver-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		170D4EFD1C88BC760049F431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "password-saver-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyu.edu.password-saver-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/password-saver-app.app/password-saver-app";
+			};
+			name = Debug;
+		};
+		170D4EFE1C88BC760049F431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "password-saver-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyu.edu.password-saver-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/password-saver-app.app/password-saver-app";
+			};
+			name = Release;
+		};
+		170D4F001C88BC760049F431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "password-saver-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyu.edu.password-saver-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "password-saver-app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		170D4F011C88BC760049F431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "password-saver-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyu.edu.password-saver-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "password-saver-app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		170D4EC71C88BC760049F431 /* Build configuration list for PBXProject "password-saver-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170D4EF71C88BC760049F431 /* Debug */,
+				170D4EF81C88BC760049F431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170D4EF91C88BC760049F431 /* Build configuration list for PBXNativeTarget "password-saver-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170D4EFA1C88BC760049F431 /* Debug */,
+				170D4EFB1C88BC760049F431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		170D4EFC1C88BC760049F431 /* Build configuration list for PBXNativeTarget "password-saver-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170D4EFD1C88BC760049F431 /* Debug */,
+				170D4EFE1C88BC760049F431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		170D4EFF1C88BC760049F431 /* Build configuration list for PBXNativeTarget "password-saver-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170D4F001C88BC760049F431 /* Debug */,
+				170D4F011C88BC760049F431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 170D4EC41C88BC760049F431 /* Project object */;
+}
